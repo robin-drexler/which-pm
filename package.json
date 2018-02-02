@@ -1,0 +1,12 @@
+{
+  "name": "which-pm",
+  "description":
+    "Detect which package manager is used to run a npm/yarn script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "exec": "node -e \"console.log(require('./index.js')())\"",
+    "test": "./test.sh"
+  }
+}
